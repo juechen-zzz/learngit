@@ -5,3 +5,4 @@ print(100+20);
 a = input();
 print(a);
 print('中文');
+print('a');
