@@ -26,4 +26,4 @@ def person3(name, age, *args, city, job):
 
 ##可以设定默认值
 def person4(name, age, *, city='Beijing', job):
-    print(name, age, city, job)
+    print(name, age, city, job);
