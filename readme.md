@@ -1,4 +1,4 @@
 # Hello World
 
-my first github project.
+My first github project.
 
