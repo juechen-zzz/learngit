@@ -7,3 +7,4 @@ def int2(x,base = 2):
 	pass
 
 print(int2('1000'))
+
