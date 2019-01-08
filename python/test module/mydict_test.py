@@ -29,4 +29,4 @@ class TestDict(unittest.TestCase):
     def test_attrerror(self):
         d = Dict()
         with self.assertRaises(AttributeError):
-            value = d.empty
+            value = d.emptyk
