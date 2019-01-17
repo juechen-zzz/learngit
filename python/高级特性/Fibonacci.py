@@ -1,5 +1,5 @@
 ##Fibonacci数列函数
-def fib(max):
+def fib(max):	#函数定义循环的方式
 	n,a,b = 0,0,1;
 	while n < max:
 		print(b);
@@ -7,3 +7,4 @@ def fib(max):
 		n = n+1;
 		pass
 	return 'done'
+
