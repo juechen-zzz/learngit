@@ -1,9 +1,5 @@
-def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
+def twoSum(nums, target):
+
     d = {}
     for i, n in enumerate(nums):
         m = target - n
@@ -11,5 +7,6 @@ def twoSum(self, nums, target):
             return [d[m], i]
         else:
             d[n] = i
-        
+
+
         
