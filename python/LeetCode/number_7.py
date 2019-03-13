@@ -8,10 +8,10 @@ class Solution(object):
 
         sum = 0
         while a > 0:
-        	sum = sum * 10 + a % 10
-        	a = a // 10
-        	pass
+            sum = sum * 10 + a % 10
+            a = a // 10
+            pass
 
-        sum = sum if x >=0 else -sum
+        sum = sum if x >= 0 else -sum
 
-        return sum if sum < 2**31 and sum > -2**31 else 0
+        return sum if sum < 2 ** 31 and sum > -2 ** 31 else 0

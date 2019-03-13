@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c2cb76-0e97-4a8c-8d3c-eeac039d9bfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/number_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/number_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/number_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/number_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/number_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/number_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/number_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/number_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/number_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/number_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/number_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/number_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/number_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/number_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/number_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/基础/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -52,12 +50,18 @@
       <list>
         <option value="$PROJECT_DIR$/基础/hello.py" />
         <option value="$PROJECT_DIR$/LeetCode/number_1.py" />
+        <option value="$PROJECT_DIR$/LeetCode/number_2.py" />
+        <option value="$PROJECT_DIR$/LeetCode/number_3.py" />
+        <option value="$PROJECT_DIR$/LeetCode/number_4.py" />
+        <option value="$PROJECT_DIR$/LeetCode/number_5.py" />
+        <option value="$PROJECT_DIR$/LeetCode/number_6.py" />
+        <option value="$PROJECT_DIR$/LeetCode/number_7.py" />
         <option value="$PROJECT_DIR$/LeetCode/main.py" />
         <option value="$PROJECT_DIR$/基础/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -87,7 +91,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,7 +221,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38064516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,20 +262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/number_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础/text1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -297,17 +287,57 @@
     <entry file="file://$PROJECT_DIR$/函数式编程/count.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/number_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/number_1.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/number_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/number_4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/number_5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/number_6.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/number_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/函数/abs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/main.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
