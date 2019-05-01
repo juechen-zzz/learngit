@@ -1,5 +1,18 @@
-a = 1000;
-if(a > 0):
-	print(a);
-else:
-	print(-a);
+from collections import deque
+
+
+a = deque()
+a.append(1)
+a.append(2)
+a.append(3)
+print(a)
+
+a.appendleft(4)
+print(a)
+
+a.pop()
+print(a)
+
+a.popleft()
+print(a)
+

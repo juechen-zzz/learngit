@@ -1,19 +1,69 @@
-import numpy as np
-import time
+"""
+    Bubble sort, insertion sort and selection sort
+    冒泡排序、插入排序、选择排序
 
-x = np.array([1, 2, 3, 4])
-print(x)
+    Author: Wenru
+"""
 
-a = np.random.rand(1000000)
-b = np.random.rand(1000000)
+from typing import List
 
-tic = time.time()
-c = np.dot(a, b)
-toc = time.time()
-print("Vectorized version:" + str(1000 * (toc - tic)) + "ms")
 
-tic = time.time()
-for i in range(1000000):
-    c += a[i] * b[i]
-toc = time.time()
-print("For loop:" + str(1000 * (toc - tic)) + "ms")
+# 冒泡排序
+def bubble_sort(a: List[int]):
+    length = len(a)
+    if length <= 1:
+        return
+
+    for i in range(length):
+        made_swap = False
+        for j in range(length - i - 1):
+            if a[j] > a[j + 1]:
+                a[j], a[j + 1] = a[j + 1], a[j]
+                made_swap = True
+        if not made_swap:
+            break
+
+
+# 插入排序
+def insertion_sort(a: List[int]):
+    length = len(a)
+    if length <= 1:
+        return
+
+    for i in range(1, length):
+        value = a[i]
+        j = i - 1
+        while j >= 0 and a[j] > value:
+            a[j + 1] = a[j]
+            j -= 1
+        a[j + 1] = value
+
+
+# 选择排序
+def selection_sort(a: List[int]):
+    length = len(a)
+    if length <= 1:
+        return
+
+    for i in range(length):
+        min_index = i
+        min_val = a[i]
+        for j in range(i, length):
+            if a[j] < min_val:
+                min_val = a[j]
+                min_index = j
+        a[i], a[min_index] = a[min_index], a[i]
+
+
+if __name__ == "__main__":
+    array = [5, 6, -1, 4, 2, 8, 10, 7, 6]
+    bubble_sort(array)
+    print(array)
+
+    array = [5, 6, -1, 4, 2, 8, 10, 7, 6]
+    insertion_sort(array)
+    print(array)
+
+    array = [5, 6, -1, 4, 2, 8, 10, 7, 6]
+    selection_sort(array)
+    print(array)
