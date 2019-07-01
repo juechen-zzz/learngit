@@ -77,6 +77,39 @@ if __name__ == "__main__":
     print(bisect.bisect_right(a, 6)-1 == bsearch_right(a, 6))
     print(bisect.bisect_right(b, 14)-1 == bsearch_right(b, 14))
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     print(bsearch_left_not_less(a, 11))
     print(bsearch_right_not_greater(b, 12))
     print(bsearch_right_not_greater(b, 10))
