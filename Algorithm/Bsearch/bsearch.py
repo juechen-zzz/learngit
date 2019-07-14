@@ -12,3 +12,4 @@ def bsearch(nums: List[int], target: int) -> int:
         else:
             high = mid - 1
     return -1
+
