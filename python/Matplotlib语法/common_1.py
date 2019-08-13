@@ -9,7 +9,7 @@
 """
 
 from matplotlib import pyplot as plt
-# plt.style.use('fivethirtyeight')
+plt.style.use('fivethirtyeight')
 
 print(plt.style.available)
 
