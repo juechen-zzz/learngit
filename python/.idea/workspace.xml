@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c2cb76-0e97-4a8c-8d3c-eeac039d9bfe" name="Default Changelist" comment="" />
+    <list default="true" id="26c2cb76-0e97-4a8c-8d3c-eeac039d9bfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter_test/.ipynb_checkpoints/basic_cnn_torch-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter_test/.ipynb_checkpoints/basic_cnn_torch-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter_test/basic_cnn_torch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter_test/basic_cnn_torch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/text1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/text2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/text3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础/text4.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,70 +23,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matplotlib语法/common_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matplotlib语法/common_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <element signature="e#86#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matplotlib语法/CSV_import.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-              <folding>
-                <element signature="e#26#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matplotlib语法/CSV_import_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#26#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matplotlib语法/bar_1.py">
+        <entry file="file://$PROJECT_DIR$/基础/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Matplotlib语法/bar_2.py">
+        <entry file="file://$PROJECT_DIR$/面向对象编程/Digital_clock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -106,7 +64,6 @@
         <option value="$PROJECT_DIR$/LeetCode/number_6.py" />
         <option value="$PROJECT_DIR$/LeetCode/number_7.py" />
         <option value="$PROJECT_DIR$/LeetCode/main.py" />
-        <option value="$PROJECT_DIR$/基础/test.py" />
         <option value="$PROJECT_DIR$/基础/text1.py" />
         <option value="$PROJECT_DIR$/面向对象编程/Student_2.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法.py" />
@@ -124,6 +81,9 @@
         <option value="$PROJECT_DIR$/Matplotlib语法/CSV_import_2.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法/bar_2.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法/bar_1.py" />
+        <option value="$PROJECT_DIR$/Matplotlib语法/1.py" />
+        <option value="$PROJECT_DIR$/基础/test.py" />
+        <option value="$PROJECT_DIR$/面向对象编程/Digital_clock.py" />
       </list>
     </option>
   </component>
@@ -139,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,12 +109,18 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Matplotlib语法" type="462c0819:PsiDirectoryNode" />
+              <item name="基础" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="面向对象编程" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,8 +146,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bar_2">
-    <configuration name="CSV_import" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +160,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib语法/CSV_import.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib语法/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="common_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,12 +243,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib语法/common_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,19 +258,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.common_2" />
-      <item itemvalue="Python.CSV_import" />
       <item itemvalue="Python.CSV_import_2" />
       <item itemvalue="Python.bar_1" />
       <item itemvalue="Python.bar_2" />
+      <item itemvalue="Python.1" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.bar_2" />
         <item itemvalue="Python.bar_1" />
         <item itemvalue="Python.CSV_import_2" />
-        <item itemvalue="Python.common_2" />
-        <item itemvalue="Python.CSV_import" />
       </list>
     </recent_temporary>
   </component>
@@ -327,11 +292,16 @@
       <workItem from="1565664112304" duration="3537000" />
       <workItem from="1565837969047" duration="2322000" />
       <workItem from="1565863183331" duration="98000" />
+      <workItem from="1565957133008" duration="160000" />
+      <workItem from="1566009382878" duration="219000" />
+      <workItem from="1566009614583" duration="44000" />
+      <workItem from="1566009669459" duration="1438000" />
+      <workItem from="1566020341456" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18606000" />
+    <option name="totallyTimeSpent" value="20484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +316,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.14377682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.15450644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,6 +375,7 @@
     <SUITE FILE_PATH="coverage/python$bar_2.coverage" NAME="bar_2 Coverage Results" MODIFIED="1565840388893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1565593621054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$test_3.coverage" NAME="test_3 Coverage Results" MODIFIED="1565595120859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1566020082986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础" />
     <SUITE FILE_PATH="coverage/python$test_2.coverage" NAME="test_2 Coverage Results" MODIFIED="1565594550049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$CSV_import.coverage" NAME="CSV_import Coverage Results" MODIFIED="1565667328539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$bar_1.coverage" NAME="bar_1 Coverage Results" MODIFIED="1565840355471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
@@ -412,14 +383,11 @@
     <SUITE FILE_PATH="coverage/python$CSV_import_2.coverage" NAME="CSV_import_2 Coverage Results" MODIFIED="1565839746392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$common_1.coverage" NAME="common_1 Coverage Results" MODIFIED="1565666974060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$test_6.coverage" NAME="test_6 Coverage Results" MODIFIED="1565596668241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
+    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1565957151623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/基础/text3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础/text4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/text3.py" />
+    <entry file="file://$PROJECT_DIR$/基础/text4.py" />
     <entry file="file://$PROJECT_DIR$/函数式编程/add.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -447,25 +415,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础/text2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/text2.py" />
     <entry file="file://$PROJECT_DIR$/面向对象编程/student.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础/text1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Matplotlib语法.py" />
     <entry file="file://$PROJECT_DIR$/面向对象编程/Student_2.py">
@@ -528,6 +480,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Matplotlib语法/1.py" />
+    <entry file="file://$PROJECT_DIR$/基础/text1.py" />
     <entry file="file://$PROJECT_DIR$/Matplotlib语法/common_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -577,11 +531,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Matplotlib语法/bar_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="468">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter_test/basic_cnn_tensorflow.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Digital_clock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
