@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="26c2cb76-0e97-4a8c-8d3c-eeac039d9bfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter_test/.ipynb_checkpoints/basic_cnn_torch-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter_test/.ipynb_checkpoints/basic_cnn_torch-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter_test/basic_cnn_torch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter_test/basic_cnn_torch.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/基础/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/text1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/text2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/text3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/基础/text4.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,18 +18,32 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面向对象编程/class_method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="522">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面向对象编程/class_method_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1314">
+              <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/面向对象编程/Digital_clock.py">
+        <entry file="file://$PROJECT_DIR$/面向对象编程/class_method_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="18">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -82,8 +90,13 @@
         <option value="$PROJECT_DIR$/Matplotlib语法/bar_2.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法/bar_1.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法/1.py" />
-        <option value="$PROJECT_DIR$/基础/test.py" />
         <option value="$PROJECT_DIR$/面向对象编程/Digital_clock.py" />
+        <option value="$PROJECT_DIR$/面向对象编程/property_test.py" />
+        <option value="$PROJECT_DIR$/面向对象编程/static_method.py" />
+        <option value="$PROJECT_DIR$/面向对象编程/class_method.py" />
+        <option value="$PROJECT_DIR$/基础/test.py" />
+        <option value="$PROJECT_DIR$/面向对象编程/class_method_2.py" />
+        <option value="$PROJECT_DIR$/面向对象编程/class_method_3.py" />
       </list>
     </option>
   </component>
@@ -146,8 +159,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.class_method_3">
+    <configuration name="_pydev_execfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,12 +168,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib语法" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib语法/1.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CSV_import_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,12 +190,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib语法/CSV_import_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/class_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bar_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_method_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,12 +212,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib语法/bar_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/class_method_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bar_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_method_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,12 +234,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib语法/bar_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/class_method_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,7 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="static_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,12 +256,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/static_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,19 +271,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CSV_import_2" />
-      <item itemvalue="Python.bar_1" />
-      <item itemvalue="Python.bar_2" />
-      <item itemvalue="Python.1" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.static_method" />
+      <item itemvalue="Python.class_method" />
+      <item itemvalue="Python.class_method_2" />
+      <item itemvalue="Python._pydev_execfile" />
+      <item itemvalue="Python.class_method_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.bar_2" />
-        <item itemvalue="Python.bar_1" />
-        <item itemvalue="Python.CSV_import_2" />
+        <item itemvalue="Python.class_method_3" />
+        <item itemvalue="Python.class_method_2" />
+        <item itemvalue="Python._pydev_execfile" />
+        <item itemvalue="Python.class_method" />
+        <item itemvalue="Python.static_method" />
       </list>
     </recent_temporary>
   </component>
@@ -296,12 +309,15 @@
       <workItem from="1566009382878" duration="219000" />
       <workItem from="1566009614583" duration="44000" />
       <workItem from="1566009669459" duration="1438000" />
-      <workItem from="1566020341456" duration="17000" />
+      <workItem from="1566020341456" duration="1677000" />
+      <workItem from="1566028132451" duration="31000" />
+      <workItem from="1566091281791" duration="1187000" />
+      <workItem from="1566092482466" duration="417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20484000" />
+    <option name="totallyTimeSpent" value="23779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,12 +332,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.15450644" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.16094421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.24819277" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.24819277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37951806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,20 +390,24 @@
     <SUITE FILE_PATH="coverage/python$counter_simple.coverage" NAME="counter_simple Coverage Results" MODIFIED="1565666310955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$bar_2.coverage" NAME="bar_2 Coverage Results" MODIFIED="1565840388893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1565593621054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
+    <SUITE FILE_PATH="coverage/python$class_method_2.coverage" NAME="class_method_2 Coverage Results" MODIFIED="1566092585453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
     <SUITE FILE_PATH="coverage/python$test_3.coverage" NAME="test_3 Coverage Results" MODIFIED="1565595120859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
-    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1566020082986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1566021162993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础" />
+    <SUITE FILE_PATH="coverage/python$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1566092402912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+    <SUITE FILE_PATH="coverage/python$class_method_3.coverage" NAME="class_method_3 Coverage Results" MODIFIED="1566092801358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
     <SUITE FILE_PATH="coverage/python$test_2.coverage" NAME="test_2 Coverage Results" MODIFIED="1565594550049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$CSV_import.coverage" NAME="CSV_import Coverage Results" MODIFIED="1565667328539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$bar_1.coverage" NAME="bar_1 Coverage Results" MODIFIED="1565840355471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$test_5.coverage" NAME="test_5 Coverage Results" MODIFIED="1565596255719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$CSV_import_2.coverage" NAME="CSV_import_2 Coverage Results" MODIFIED="1565839746392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
+    <SUITE FILE_PATH="coverage/python$class_method.coverage" NAME="class_method Coverage Results" MODIFIED="1566091353628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
+    <SUITE FILE_PATH="coverage/python$static_method.coverage" NAME="static_method Coverage Results" MODIFIED="1566022164722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
+    <SUITE FILE_PATH="coverage/python$property_test.coverage" NAME="property_test Coverage Results" MODIFIED="1566021963340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
     <SUITE FILE_PATH="coverage/python$common_1.coverage" NAME="common_1 Coverage Results" MODIFIED="1565666974060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$test_6.coverage" NAME="test_6 Coverage Results" MODIFIED="1565596668241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1565957151623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/基础/text3.py" />
-    <entry file="file://$PROJECT_DIR$/基础/text4.py" />
     <entry file="file://$PROJECT_DIR$/函数式编程/add.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -408,28 +428,8 @@
     <entry file="file://$PROJECT_DIR$/LeetCode/number_5.py" />
     <entry file="file://$PROJECT_DIR$/LeetCode/number_6.py" />
     <entry file="file://$PROJECT_DIR$/LeetCode/number_7.py" />
-    <entry file="file://$PROJECT_DIR$/基础/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础/text2.py" />
-    <entry file="file://$PROJECT_DIR$/面向对象编程/student.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Matplotlib语法.py" />
-    <entry file="file://$PROJECT_DIR$/面向对象编程/Student_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象编程/Student_1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Matplotlib语法/CSV_common.py" />
     <entry file="file://$PROJECT_DIR$/Matplotlib语法/counter_simple.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -542,17 +542,99 @@
     <entry file="file://$PROJECT_DIR$/Jupyter_test/basic_cnn_tensorflow.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面向对象编程/Digital_clock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Call.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/函数/define_f.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/property_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/static_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/student.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Student_1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Student_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Student_4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Weekday.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Mydog.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Animal.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Getattr.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/Fib.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/class_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/class_method_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象编程/class_method_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
