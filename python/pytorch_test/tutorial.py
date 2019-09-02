@@ -1,3 +1,8 @@
+"""
+    一个简单回归问题，可视化
+"""
+
+
 import torch
 from torch.autograd import Variable
 import torch.nn.functional as F
@@ -17,13 +22,13 @@ x, y = Variable(x), Variable(y)
 class Net(torch.nn.Module):
     # 需要的信息
     def __init__(self, n_features, n_hidden, n_output):
-        super(Net, self).__init__()     # 继承模块
+        super(Net, self).__init__()     # 继承模块torch.nn.Module
         self.hidden = torch.nn.Linear(n_features, n_hidden)
         self.predict = torch.nn.Linear(n_hidden, n_output)
 
 
 
-    # 前向传递过程
+    # 前向传递过程，真正搭建网络的地方
     def forward(self, x):
         x = torch.relu(self.hidden(x))
         x = self.predict(x)
@@ -37,10 +42,10 @@ plt.ion()   # something about plotting,变成一个实时打印的过程
 plt.show()
 
 # 优化器
-optimizer = torch.optim.SGD(net.parameters(), lr=0.2)
-loss_func = torch.nn.MSELoss()
+optimizer = torch.optim.SGD(net.parameters(), lr=0.5)   # lr: learn rate
+loss_func = torch.nn.MSELoss()      # 均方差处理，回归问题使用
 
-for t in range(100):
+for t in range(200):
     prediction = net(x)
     loss = loss_func(prediction, y)
 
@@ -50,7 +55,7 @@ for t in range(100):
     # 优化梯度，学习效率为0.2
     optimizer.step()
 
-    if t%5 == 0:
+    if t % 5 == 0:
         # plot and show learning process
         plt.cla()
         plt.scatter(x.data.numpy(), y.data.numpy())
