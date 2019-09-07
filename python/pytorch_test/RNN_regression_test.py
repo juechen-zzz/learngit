@@ -67,7 +67,7 @@ loss_func = nn.MSELoss()
 h_state = None      # for initial hidden state
 
 plt.figure(1, figsize=(12, 5))
-plt.ion()           # continuously plot
+plt.ion()           # continuously plot 动态图
 
 for step in range(100):
     start, end = step * np.pi, (step+1) * np.pi         # time range
