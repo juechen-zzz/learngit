@@ -80,8 +80,8 @@ for t in range(500):
                  fontdict={'size': 20, 'color': 'red'})
         plt.text(0, -1.5, 'dropout loss=%.4f' % loss_func(test_pred_drop, test_y).data.numpy(),
                  fontdict={'size': 20, 'color': 'blue'})
-        plt.legend(loc='upper left');
-        plt.ylim((-2.5, 2.5));
+        plt.legend(loc='upper left')
+        plt.ylim((-2.5, 2.5))
         plt.pause(0.1)
 
         # 返回训练的模式
