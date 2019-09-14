@@ -153,3 +153,4 @@ if __name__ == "__main__":
     plt.scatter(test_x.data.numpy(), test_y.data.numpy(), c='r', s=50, alpha=0.2, label='train')
     plt.legend(loc='best')
     plt.show()
+    

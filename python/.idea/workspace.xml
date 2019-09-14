@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c2cb76-0e97-4a8c-8d3c-eeac039d9bfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pytorch_test/Dropout_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_test/Dropout_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch_test/batch_normalization_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_test/batch_normalization_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,97 +30,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/CNN_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="88" />
-              <folding>
-                <element signature="e#34#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/RNN_classification_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-              <folding>
-                <element signature="e#38#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/RNN_regression_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="44" column="57" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-              <folding>
-                <element signature="e#43#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/DQN_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="123" column="17" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-              <folding>
-                <element signature="e#21#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/GAN_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-              <folding>
-                <element signature="e#20#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/dynamic_graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1524">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
-              <folding>
-                <element signature="e#25#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/Dropout_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-              <folding>
-                <element signature="e#27#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytorch_test/batch_normalization_test.py">
+        <entry file="file://$PROJECT_DIR$/tensorflow_test/process_data_structure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="154" column="14" lean-forward="true" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+            <state relative-caret-position="439">
+              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
-                <element signature="e#29#41#0" expanded="true" />
+                <element signature="e#34#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/number_3.py" />
         <option value="$PROJECT_DIR$/LeetCode/number_4.py" />
         <option value="$PROJECT_DIR$/LeetCode/number_5.py" />
         <option value="$PROJECT_DIR$/LeetCode/number_6.py" />
@@ -196,10 +112,11 @@
         <option value="$PROJECT_DIR$/pytorch_test/dynamic_graph.py" />
         <option value="$PROJECT_DIR$/pytorch_test/Dropout_test.py" />
         <option value="$PROJECT_DIR$/pytorch_test/batch_normalization_test.py" />
+        <option value="$PROJECT_DIR$/tensorflow_test/process_data_structure.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -213,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,12 +140,13 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="pytorch_test" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.batch_normalization_test">
+  <component name="RunManager" selected="Python.process_data_structure">
     <configuration name="DQN_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="process_data_structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,12 +269,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch_test/dynamic_graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_test/process_data_structure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,18 +285,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.GAN_test" />
-      <item itemvalue="Python.dynamic_graph" />
       <item itemvalue="Python.Dropout_test" />
       <item itemvalue="Python.DQN_test" />
       <item itemvalue="Python.batch_normalization_test" />
+      <item itemvalue="Python.process_data_structure" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.process_data_structure" />
         <item itemvalue="Python.batch_normalization_test" />
         <item itemvalue="Python.DQN_test" />
         <item itemvalue="Python.GAN_test" />
         <item itemvalue="Python.Dropout_test" />
-        <item itemvalue="Python.dynamic_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -430,11 +347,13 @@
       <workItem from="1568094506981" duration="5425000" />
       <workItem from="1568212034583" duration="14000" />
       <workItem from="1568249405264" duration="3641000" />
+      <workItem from="1568298233630" duration="42000" />
+      <workItem from="1568422502817" duration="1997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81172000" />
+    <option name="totallyTimeSpent" value="83211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,15 +365,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.18383405" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.18311875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.19617835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.28433734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37834394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,6 +449,7 @@
     <SUITE FILE_PATH="coverage/python$nump_torch.coverage" NAME="nump_torch Coverage Results" MODIFIED="1567244970692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
     <SUITE FILE_PATH="coverage/python$dynamic_graph.coverage" NAME="dynamic_graph Coverage Results" MODIFIED="1568097277589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
     <SUITE FILE_PATH="coverage/python$paqu2.coverage" NAME="paqu2 Coverage Results" MODIFIED="1567568267833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
+    <SUITE FILE_PATH="coverage/python$process_data_structure.coverage" NAME="process_data_structure Coverage Results" MODIFIED="1568427169446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_test" />
     <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1566021162993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础" />
     <SUITE FILE_PATH="coverage/python$class_method_3.coverage" NAME="class_method_3 Coverage Results" MODIFIED="1566092801358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
     <SUITE FILE_PATH="coverage/python$optim_test.coverage" NAME="optim_test Coverage Results" MODIFIED="1567520281525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
@@ -544,7 +464,6 @@
     <SUITE FILE_PATH="coverage/python$RNN_classification_test.coverage" NAME="RNN_classification_test Coverage Results" MODIFIED="1568095135587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Matplotlib语法/1.py" />
     <entry file="file://$PROJECT_DIR$/基础/text1.py" />
     <entry file="file://$PROJECT_DIR$/Matplotlib语法/common_1.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -854,9 +773,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch_test/DQN_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+          <folding>
+            <element signature="e#21#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch_test/GAN_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+          <folding>
+            <element signature="e#20#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch_test/dynamic_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1524">
+        <state relative-caret-position="1638">
           <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#25#37#0" expanded="true" />
@@ -864,30 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch_test/GAN_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-          <folding>
-            <element signature="e#20#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch_test/DQN_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="123" column="17" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-          <folding>
-            <element signature="e#21#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch_test/Dropout_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+        <state relative-caret-position="1473">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
           <folding>
             <element signature="e#27#39#0" expanded="true" />
           </folding>
@@ -896,10 +815,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytorch_test/batch_normalization_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="154" column="14" lean-forward="true" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+        <state relative-caret-position="679">
+          <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
           <folding>
             <element signature="e#29#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_test/process_data_structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="e#34#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
