@@ -8,6 +8,7 @@
 
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def add_layer(inputs, in_size, out_size, activation_function=None):
@@ -30,22 +31,38 @@ y_data = np.square(x_data) - 0.5 + noise
 
 xs = tf.compat.v1.placeholder(tf.float32, [None, 1])
 ys = tf.compat.v1.placeholder(tf.float32, [None, 1])
+
 # define layer
 l_1 = add_layer(xs, 1, 10, activation_function=tf.nn.relu)
 predict = add_layer(l_1, 10, 1, activation_function=None)
 
 # reduction_indices=[1]是按行求和，reduce_sum求出的是一列值，reduce_mean是对这个一列值进行求均值
 loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - predict), reduction_indices=[1]))
-
 train_step = tf.compat.v1.train.GradientDescentOptimizer(0.1).minimize(loss)
 
 init = tf.compat.v1.global_variables_initializer()
 sess = tf.compat.v1.Session()
 sess.run(init)
 
+# 建立图
+fig = plt.figure()
+ax = fig.add_subplot(1, 1, 1)
+ax.scatter(x_data, y_data)
+plt.ion()               # 在show后能够继续走下去
+
+
 for i in range(1000):
     # 方便使用batch
     sess.run(train_step, feed_dict={xs: x_data, ys: y_data})
     if i % 50 == 0:
         print('loss:', sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
+        try:
+            ax.lines.remove(lines[0])       # 在图片中去除lines的第一个线段
+        except Exception:
+            pass
+        predict_value = sess.run(predict, feed_dict={xs: x_data})
+        lines = ax.plot(x_data, predict_value, 'r-', lw=5)
+        plt.pause(0.1)                      # 暂停0.1秒
 
+plt.ioff()
+plt.show()
