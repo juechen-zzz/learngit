@@ -64,3 +64,4 @@ for i in range(500):
         test_writer.add_summary(test_result, i)
 
 # $ tensorboard --logdir=logs    先转到log之上的那个目录
+
