@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_test/virtual_form_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="45" />
+            <state relative-caret-position="657">
+              <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
               <folding>
                 <element signature="e#21#44#0" expanded="true" />
               </folding>
@@ -44,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_test/dropout_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="360">
               <caret line="23" column="67" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="67" />
               <folding>
                 <element signature="e#28#51#0" expanded="true" />
@@ -74,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_test/reader_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="108">
               <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#23#46#0" expanded="true" />
@@ -83,13 +83,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_test/RNN_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="1368">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="e#30#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tensorflow_test/autoencoder_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="171" column="14" lean-forward="true" selection-start-line="171" selection-start-column="14" selection-end-line="171" selection-end-column="14" />
+              <folding>
+                <element signature="e#32#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Matplotlib语法/counter_simple.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法/common_2.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法/CSV_common.py" />
         <option value="$PROJECT_DIR$/Matplotlib语法/CSV_import.py" />
@@ -166,6 +177,7 @@
         <option value="$PROJECT_DIR$/tensorflow_test/reader_test.py" />
         <option value="$PROJECT_DIR$/tensorflow_test/cnn_test_1.py" />
         <option value="$PROJECT_DIR$/tensorflow_test/RNN_test.py" />
+        <option value="$PROJECT_DIR$/tensorflow_test/autoencoder_test.py" />
       </list>
     </option>
   </component>
@@ -181,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +209,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RNN_test">
+  <component name="RunManager" selected="Python.autoencoder_test">
     <configuration name="RNN_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,6 +250,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_test/RNN_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoencoder_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_test/autoencoder_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,28 +302,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dropout_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_test/dropout_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="reader_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -312,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="saver_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="virtual_form_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,7 +337,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_test/saver_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_test/virtual_form_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,19 +347,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dropout_test" />
       <item itemvalue="Python.cnn_test_1" />
-      <item itemvalue="Python.saver_test" />
       <item itemvalue="Python.reader_test" />
       <item itemvalue="Python.RNN_test" />
+      <item itemvalue="Python.virtual_form_3" />
+      <item itemvalue="Python.autoencoder_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.autoencoder_test" />
+        <item itemvalue="Python.virtual_form_3" />
         <item itemvalue="Python.RNN_test" />
         <item itemvalue="Python.cnn_test_1" />
         <item itemvalue="Python.reader_test" />
-        <item itemvalue="Python.saver_test" />
-        <item itemvalue="Python.dropout_test" />
       </list>
     </recent_temporary>
   </component>
@@ -428,11 +440,13 @@
       <workItem from="1569722376617" duration="901000" />
       <workItem from="1569723443408" duration="1052000" />
       <workItem from="1569724521028" duration="1187000" />
+      <workItem from="1570024325588" duration="74000" />
+      <workItem from="1570239939980" duration="1670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118246000" />
+    <option name="totallyTimeSpent" value="119990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,7 +461,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.18311875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -503,7 +517,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$bar_2.coverage" NAME="bar_2 Coverage Results" MODIFIED="1568723548134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
     <SUITE FILE_PATH="coverage/python$counter_simple.coverage" NAME="counter_simple Coverage Results" MODIFIED="1568723568189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
-    <SUITE FILE_PATH="coverage/python$virtual_form_3.coverage" NAME="virtual_form_3 Coverage Results" MODIFIED="1568947088325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_test" />
+    <SUITE FILE_PATH="coverage/python$virtual_form_3.coverage" NAME="virtual_form_3 Coverage Results" MODIFIED="1570024346126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_test" />
     <SUITE FILE_PATH="coverage/python$dropout_test.coverage" NAME="dropout_test Coverage Results" MODIFIED="1569133614114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_test" />
     <SUITE FILE_PATH="coverage/python$numpy_torch_2.coverage" NAME="numpy_torch_2 Coverage Results" MODIFIED="1567336421974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
     <SUITE FILE_PATH="coverage/python$Dropout_test.coverage" NAME="Dropout_test Coverage Results" MODIFIED="1568249715489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
@@ -539,6 +553,7 @@
     <SUITE FILE_PATH="coverage/python$RNN_regression_test.coverage" NAME="RNN_regression_test Coverage Results" MODIFIED="1568095169787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
     <SUITE FILE_PATH="coverage/python$batch_normalization_test.coverage" NAME="batch_normalization_test Coverage Results" MODIFIED="1568255554296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
     <SUITE FILE_PATH="coverage/python$virtual_form_2.coverage" NAME="virtual_form_2 Coverage Results" MODIFIED="1568797689262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_test" />
+    <SUITE FILE_PATH="coverage/python$autoencoder_test.coverage" NAME="autoencoder_test Coverage Results" MODIFIED="1570242517032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_test" />
     <SUITE FILE_PATH="coverage/python$autoencoder.coverage" NAME="autoencoder Coverage Results" MODIFIED="1567819315734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytorch_test" />
     <SUITE FILE_PATH="coverage/python$property_test.coverage" NAME="property_test Coverage Results" MODIFIED="1566021963340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
     <SUITE FILE_PATH="coverage/python$session_test.coverage" NAME="session_test Coverage Results" MODIFIED="1568512064716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_test" />
@@ -558,13 +573,6 @@
     <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1565957151623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib语法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -924,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_test/virtual_form_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="45" />
+        <state relative-caret-position="657">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
           <folding>
             <element signature="e#21#44#0" expanded="true" />
           </folding>
@@ -934,11 +942,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_test/dropout_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="360">
           <caret line="23" column="67" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="67" />
           <folding>
             <element signature="e#28#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_test/cnn_test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -951,7 +966,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_test/reader_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="108">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#23#46#0" expanded="true" />
@@ -959,19 +974,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_test/cnn_test_1.py">
+    <entry file="file://$PROJECT_DIR$/tensorflow_test/RNN_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="1368">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#30#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_test/RNN_test.py">
+    <entry file="file://$PROJECT_DIR$/tensorflow_test/autoencoder_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="675">
+          <caret line="171" column="14" lean-forward="true" selection-start-line="171" selection-start-column="14" selection-end-line="171" selection-end-column="14" />
           <folding>
-            <element signature="e#30#53#0" expanded="true" />
+            <element signature="e#32#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
