@@ -12,7 +12,7 @@ N_HIDDEN_UNITS = 30
 
 def fix_seed(seed=1):
     # reproducible
-    np.random.seed(seed)            # 使用seed的用途：设置相同的seed，保证参数的随机初始化值相同，每次使用相同的seed值
+    np.random.seed(seed)                # 使用seed的用途：设置相同的seed，保证参数的随机初始化值相同，每次使用相同的seed值
     tf.compat.v1.set_random_seed(seed)
 
 
@@ -48,6 +48,7 @@ def built_net(xs, ys, norm):
         Wx_plus_b = tf.compat.v1.matmul(inputs, Weights) + biases
 
         if norm:
+            # 均值和方差
             fc_mean, fc_var = tf.compat.v1.nn.moments(
                 Wx_plus_b,
                 axes=[0]
@@ -95,7 +96,7 @@ def built_net(xs, ys, norm):
                 return tf.identity(fc_mean), tf.identity(fc_var)
 
         mean, var = mean_var_with_update()
-        xs = tf.nn.batch_normalization(xs, mean, var, shift, scale, epsilon)
+        xs = tf.nn.batch_normalization(xs, mean, var, shift, scale, epsilon)    # 对输入层batch normalization
 
     # record inputs for every layer
     layers_inputs = [xs]
