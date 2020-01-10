@@ -12,7 +12,7 @@ class Net(nn.Module):
         # 1个输入通道，6个输出通道，3*3的正方形卷积
         # 核
         self.conv1 = nn.Conv2d(1, 6, 3)
-        self.conv1 = nn.Conv2d(6, 16, 3)
+        self.conv2 = nn.Conv2d(6, 16, 3)
         # 简单的操作 y = W * x + b
         self.fc1 = nn.Linear(16 * 6 * 6, 120)
         self.fc2 = nn.Linear(120, 84)
@@ -42,3 +42,10 @@ print(net)
 params = list(net.parameters())
 print(len(params))
 print(params[0].size())  # conv1's .weight
+
+input = torch.randn(1, 1, 32, 32)
+out = net(input)
+print(out)
+
+net.zero_grad()
+out.backward(torch.randn(1, 10))
