@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c2cb76-0e97-4a8c-8d3c-eeac039d9bfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pytorch_test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pytorch_test/cifar10_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
+            <state relative-caret-position="630">
               <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="e#31#43#0" expanded="true" />
@@ -407,12 +407,12 @@
       <workItem from="1575269314448" duration="156000" />
       <workItem from="1575336254050" duration="9000" />
       <workItem from="1578638086486" duration="1397000" />
-      <workItem from="1578640867566" duration="3755000" />
+      <workItem from="1578640867566" duration="3886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134259000" />
+    <option name="totallyTimeSpent" value="134390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +432,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.277707" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.277707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37831324" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -961,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytorch_test/cifar10_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="630">
           <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="e#31#43#0" expanded="true" />
