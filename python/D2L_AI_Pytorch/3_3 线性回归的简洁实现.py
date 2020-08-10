@@ -2,6 +2,8 @@ import torch
 import numpy as np
 import torch.utils.data as Data
 import torch.nn as nn
+from torch.nn import init
+import torch.optim as optim
 
 num_inputs = 2                  # 两个特征
 num_examples = 1000             # 每个特征有1000个样例
@@ -33,30 +35,27 @@ class LinearNet(nn.Module):
 net = LinearNet(num_inputs)
 print(net)
 
-from torch.nn import init
-
 init.normal_(net.linear.weight, mean=0, std=0.01)
 init.constant_(net.linear.bias, val=0)  # 也可以直接修改bias的data: net[0].bias.data.fill_(0)
 
 # 定义损失函数
 loss = nn.MSELoss()
 
-# 定义优化函数
-import torch.optim as optim
-
 optimizer = optim.SGD(net.parameters(), lr=0.03)
-print(optimizer)
+# print(optimizer)
 
-num_epochs = 3
+num_epochs = 5
 for epoch in range(1, num_epochs+1):
     for X, y in data_iter:
         output = net(X)
-        l = loss(output, y.view(-1, 1))
+        l = loss(output, y.view(-1, 1))     # view(-1,1)指定了第二维个数为1，自动计算第一维
         optimizer.zero_grad()
         l.backward()
         optimizer.step()
-    print('epoch %d, loss %f' % (epoch, l.item()))
+    print('epoch %d, loss %f' % (epoch, l.item())) # 返回可遍历的(键, 值) 元组数组
 
 dense = net.linear
-print(true_w, dense.weight)
-print(true_b, dense.bias)
+print("true_w:", true_w)
+print("true_b:", true_b)
+print("dense.weight:", dense.weight)
+print("dense.bias:", dense.bias)

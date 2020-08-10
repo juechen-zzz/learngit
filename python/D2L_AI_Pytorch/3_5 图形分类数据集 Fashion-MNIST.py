@@ -6,6 +6,7 @@ import time
 import sys
 sys.path.append("..")
 import d2lzh_pytorch as d2l
+from d2lzh_pytorch import *
 
 # mnist_train和mnist_test都是torch.utils.data.Dataset的子类，所以我们可以用len()来获取该数据集的大小，还可以用下标来获取具体的一个样本。
 # 训练集中和测试集中的每个类别的图像数分别为6,000和1,000。因为有10个类别，所以训练集和测试集的样本数分别为60,000和10,000。
@@ -18,8 +19,15 @@ print(len(mnist_train), len(mnist_test))
 feature, label = mnist_train[0]
 print(feature.shape, label)  # Channel x Height x Width
 
+X, y = [], []
+for i in range(10):
+    X.append(mnist_train[i][0])
+    y.append(mnist_train[i][1])
+show_fashion_mnist(X, get_fashion_mnist_labels(y))
+
+
 batch_size = 256
-num_workers = 0
+num_workers = 4
 train_iter = torch.utils.data.DataLoader(mnist_train, batch_size=batch_size, shuffle=True, num_workers=num_workers)
 test_iter = torch.utils.data.DataLoader(mnist_test, batch_size=batch_size, shuffle=False, num_workers=num_workers)
 

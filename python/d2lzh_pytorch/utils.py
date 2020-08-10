@@ -86,7 +86,7 @@ def show_fashion_mnist(images, labels):
         f.set_title(lbl)
         f.axes.get_xaxis().set_visible(False)
         f.axes.get_yaxis().set_visible(False)
-    # plt.show()
+    plt.show()
 
 # 5.6 修改
 # def load_data_fashion_mnist(batch_size, root='~/Datasets/FashionMNIST'):
@@ -166,7 +166,7 @@ def semilogy(x_vals, y_vals, x_label, y_label, x2_vals=None, y2_vals=None,
     if x2_vals and y2_vals:
         plt.semilogy(x2_vals, y2_vals, linestyle=':')
         plt.legend(legend)
-    # plt.show()
+    plt.show()
 
 
 
@@ -259,8 +259,8 @@ def load_data_fashion_mnist(batch_size, resize=None, root='/Users/nihaopeng/个�
     trans.append(torchvision.transforms.ToTensor())
     
     transform = torchvision.transforms.Compose(trans)
-    mnist_train = torchvision.datasets.FashionMNIST(root=root, train=True, download=False, transform=transform)
-    mnist_test = torchvision.datasets.FashionMNIST(root=root, train=False, download=False, transform=transform)
+    mnist_train = torchvision.datasets.FashionMNIST(root="/Users/nihaopeng/个人/Git/learngit/python/D2L_AI_Pytorch", train=True, download=False, transform=transform)
+    mnist_test = torchvision.datasets.FashionMNIST(root="/Users/nihaopeng/个人/Git/learngit/python/D2L_AI_Pytorch", train=False, download=False, transform=transform)
     if sys.platform.startswith('win'):
         num_workers = 0  # 0表示不用额外的进程来加速读取数据
     else:

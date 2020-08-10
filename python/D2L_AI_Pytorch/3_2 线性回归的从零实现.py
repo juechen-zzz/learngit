@@ -4,6 +4,10 @@ from matplotlib import pyplot as plt
 import numpy as np
 import random
 
+import sys
+sys.path.append("..")
+from d2lzh_pytorch import *
+
 # 设训练数据集样本数为1000，输入个数（特征数）为2
 num_inputs = 2
 num_examples = 1000
@@ -15,6 +19,10 @@ features = torch.randn(num_examples, num_inputs, dtype=torch.float32)
 labels = true_w[0] * features[:, 0] + true_w[1] * features[:, 1] + true_b
 labels += torch.tensor(np.random.normal(0, 0.01, size=labels.size()), dtype=torch.float32)
 print(features[0], labels[0])
+
+# set_figsize()
+# plt.scatter(features[:, 0].numpy(), labels.numpy(), 1);
+# plt.show()
 
 # 定义一个函数：它每次返回batch_size（批量大小）个随机样本的特征和标签
 def data_iter(batch_size, features, labels):

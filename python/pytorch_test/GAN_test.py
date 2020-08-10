@@ -6,7 +6,8 @@ import torch
 import torch.nn as nn
 import numpy as np
 import matplotlib.pyplot as plt
-
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 # Hyper parameters
 BATCH_SIZE = 64
