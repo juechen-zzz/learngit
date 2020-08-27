@@ -39,7 +39,7 @@ VOC_COLORMAP = [[0, 0, 0], [128, 0, 0], [0, 128, 0], [128, 128, 0],
 
 
 # ###################### 3.2 ############################
-def set_figsize(figsize=(3.5, 2.5)):
+def set_figsize(figsize=(7, 5)):
     use_svg_display()
     # 设置图的尺寸
     plt.rcParams['figure.figsize'] = figsize
